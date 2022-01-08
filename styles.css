@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background: silver;
+    width: 1200px;
+    height: 630px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#header {
+    background: purple;
+    width: 1200px;
+    color: beige;
+    padding: 20px 0px;
+    font-family: sans-serif, serif;
+}
+
+#nav {
+    background: indigo;
+    width: 1200px;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    color: white;
+    width: 235px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#nav ul li:hover {
+    color: cyan;
+}
+
+#middle {
+    width: 1200px;
+    height: 378px;
+}
+
+#footer {
+    background: brown;
+    width: 1200px;
+    height: 100px;
+}
